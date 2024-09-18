@@ -1,0 +1,126 @@
+
+/* General Styles */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin !important;
+    scrollbar-color: #006b5d transparent !important;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #006b5d;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #006b5d;
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #00ffff !important;
+}
+
+-us {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .mission {
+    background-color: rgba(9, 83, 9, 0.877);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 5px 10px rgba(248, 247, 247, 0.2);
+  }
+  .features {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 10px rgba(252, 249, 249, 0.5);
+  }
+  ul li {
+    margin-bottom: 15px;
+  }
+  .cta {
+    text-align: center;
+    background-color: rgba(9, 83, 9, 0.877);
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+  }
+  .cta button {
+    background-color: green;
+    padding: 15px;
+    color: white;
+    border: none;
+  }
+
+/* Footer */
+footer {
+    background-color: #202020;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #878787;
+}
+
+footer a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 912px) {
+    .overlay-container h1 {
+        font-size: 40px !important;
+    }
+
+    .overlay-container p {
+        font-size: 13px !important;
+    }
+}
